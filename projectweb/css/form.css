@@ -1,0 +1,66 @@
+/* Background */
+body {
+    background-image: url(../assets/bg.jpeg);
+    background-size: cover;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Judul */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Form box */
+form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #a1957593;
+    color: white;
+    border-radius: 10px;
+}
+
+/* Checkbox biar agak rapi */
+.form-check-input {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.form-control {
+    border-radius: 8px;
+}
+
+/* Tombol */
+.btn-success, .btn-secondary {
+    width: 100%;
+    border-radius: 8px;
+    background-color: #6f604e;
+    border: none;
+    font-weight: bold;
+}
+
+.btn-success:hover, .btn-secondary:hover {
+    background-color: #30281e;
+}
+
+.card {
+    align-items: center;
+    background-color: #707556d7;
+    border-radius: 15px;
+    border: dashed 3px #f1d5ab;
+    text-align: center;
+    width: 500px;
+    max-width: 90%;
+    padding: 30px;
+    margin: 100px auto;
+    box-shadow: 0 10px 25px rgba(68, 139, 67, 0.3);
+}
+.card-body{
+    padding: 20px;
+    color: #ffffff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+ 
