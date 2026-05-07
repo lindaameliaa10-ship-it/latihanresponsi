@@ -155,10 +155,10 @@ tbody tr:hover {
     background: #fee2e2;
     color: #5a0f0f;
 }
-/* .status.rusak {
-    background: #f8f6f6;
-    color: black;
-} */
+.status.rusak {
+    background: lightgrey;
+    color: rgb(77, 76, 76);
+}
 
 
 /* AKSI ICON */
