@@ -1,0 +1,419 @@
+.navbar {
+    background-color: rgb(101, 23, 62) !important;
+    padding: 10px 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    /* kiri - kanan */
+    align-items: center;
+    /* sejajar tengah */
+}
+
+/* brand kiri */
+.navbar-brand {
+    color: white;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* bagian kanan */
+.right p {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+/* tombol */
+.btn-light {
+    padding: 5px 12px;
+    border-radius: 6px;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+}
+
+.btn-light:hover {
+    padding: 5px 12px;
+    border-radius: 6px;
+    background-color: transparent;
+    border-color: rgb(130, 83, 107);
+    color: rgb(207, 171, 189);
+}
+
+.tittle {
+    display: flex;
+    justify-content: space-between;
+    /* kiri - kanan */
+    align-items: center;
+    /* sejajar tengah */
+}
+
+.tittle .intro {
+    margin: 30px 80px;
+}
+
+.intro h1 {
+    font-weight: bold;
+}
+.intro p{
+    font-size: 15px;
+}
+
+.opsi {
+    margin-right: 50px;
+}
+
+.opsi a {
+    background-color: rgb(242, 145, 194);
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.opsi a:hover {
+    background-color: rgb(138, 25, 82);
+}
+ 
+
+/* tabel utama */
+table {
+    width: 90%;
+    margin: 10px auto;
+    border-collapse: collapse;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(134, 112, 112, 0.979);
+}
+
+/* header */
+thead {
+    background: rgb(89, 13, 51);
+    color: white;
+    font-weight: bold;
+    padding: 15px 10px;
+}
+thead td {
+    padding: 15px 10px;
+}
+
+thead tr {
+    padding: 15px 10px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    
+}
+
+/* isi */
+tbody td {
+    padding: 15px 10px;
+}
+
+tbody tr:nth-child(3n+1) {
+    background: #ecfdf5;  
+}
+
+tbody tr:nth-child(3n+2) {
+    background: #e4dfcd;  
+}
+
+tbody tr:nth-child(3n+3) {
+    background: #fef2f2;  
+}
+
+tbody tr:hover {
+    filter: brightness(0.97);
+    transition: 0.2s;
+}
+
+.status {
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    background: black;
+}
+
+/* beda status */
+.status.tersedia {
+    background: #dcfce7;
+    color: #072312;
+}
+
+.status.dipinjam {
+    background: #fef3c7;
+    color: #441f08;
+}
+
+.status.maintenance {
+    background: #fee2e2;
+    color: #5a0f0f;
+}
+/* .status.rusak {
+    background: #f8f6f6;
+    color: black;
+} */
+
+
+/* AKSI ICON */
+td ul {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li a {
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    color: rgb(14, 6, 6);
+}
+
+/* hover efek */
+td ul li:hover {
+    transform: scale(1.5);
+    opacity: 0.7;
+}
+
+/* tambah.php */
+.hero {
+    max-width: 90%;
+    padding: 5px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.opsi a {
+    text-decoration: none;
+    background-color:rgb(235, 227, 227);
+    color: #555;
+    font-size: 14px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin: 5px 80px;
+}
+.opsi a:hover{
+    background-color: rgb(240, 196, 203);
+}
+.tittle .introo{
+    margin: 10px 80px;
+}
+.tittle .introo h1 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 5px auto;
+    letter-spacing: 2px;
+    
+}
+.tittle .introo p {
+    color: #777;
+    font-size: 15px;
+}
+.box {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: auto 80px;
+}
+
+/* ===== FORM SECTION ===== */
+.formleft {
+    flex: 1;
+    background: #fff;
+    padding: 15px;
+    border-radius: 16px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+    max-height: 700px ;
+}
+
+/* ===== INPUT ===== */
+.form-control {
+    width: 100%;
+    padding: 10px 12px;
+    margin: 8px 0 15px;
+    border-radius: 10px;
+    border: 1px solid rgb(149, 45, 97);
+    font-size: 15px;
+    transition: 0.2s;
+}
+
+.form-control:focus {
+    border-color: #61103f;
+    outline: none;
+}
+
+/* ===== LABEL ===== */
+.form-label {
+    font-size: 15px;
+    margin: auto;
+    font-weight: 500;
+    color: #444;
+}
+.option {
+    display: flex;
+    gap: 15px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.input-icon {
+    background: #f3f3f3;
+    padding: 10px;
+    color: #666;
+}
+.input-group input {
+    border: none;
+    outline: none;
+    padding:auto ;
+}
+.simpan{
+    width: 100%;
+    padding: 12px;
+    background: rgb(109, 30, 70);
+    border: none;
+    border-radius: 12px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.simpan:hover {
+    background: hotpink;
+}
+
+/*right*/
+.info-section-right {
+    flex: 1;
+    background: #fff;
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+    color: #61103f;
+    max-height: 500px;
+}
+
+/*badge*/
+.badge-code {
+    display: inline-block;
+    background: rgb(109, 30, 70);
+    color: white;
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-size: 12px;
+}
+
+.format-text {
+    font-size: 13px;
+    color: #555;
+    border-radius: 5px;
+    border-color:#ecfdf5;
+    padding: 5px 15px;
+}
+
+/*alert */
+.info-alert {
+    display: flex;
+    gap: 10px;
+    background: #f5f7ff;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 13px;
+    margin-top: 15px;
+}
+p {
+    font-size: 12px;
+    color: #888;
+}
+
+/*alert error*/
+.alert-danger {
+    background: #ffe5e5;
+    color: #b30000;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* detail */
+.box-detail {
+    background: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    width: 70%;
+    max-width: 700px;      
+    margin: 20px auto; 
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+/* FOTO */
+.foto-asset {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+/* HEADER PRODUK */
+.produk {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nama p {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 5px;
+}
+
+.nama h6,
+.action h6 {
+    font-weight: bold;
+}
+.merk {
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+}
+/*status */
+.st .btn {
+    border-radius: 20px;
+    padding: 5px 15px;
+}
+
+.action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stok {
+    display: flex;
+    flex-direction: column;
+}
+.update{
+    width: 100%;
+    padding: 12px;
+    background: rgb(109, 30, 70);
+    border: none;
+    border-radius: 12px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}

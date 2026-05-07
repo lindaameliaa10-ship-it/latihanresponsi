@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content {
+    display: flex;
+    height: 100vh;
+}
+
+.kiri {
+    width: 40%;
+    padding: 50px 100px; 
+}
+.kiri p {
+    text-align: center;
+}
+.kanan {
+    margin: 0;
+    width: 60%;
+    background-image: url(../assets/ayrus-hill-kaOkKC5ehoE-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* ini yang bikin h1 di atas p */
+    justify-content: center;
+    /* biar tetap di tengah */
+    align-items: center;
+}
+
+.kanan h1,
+.kanan h2,
+.kiri h1,
+.kiri h2 {
+    font-weight: bold;
+}
+.btn-dark{
+    width: 100%;
+}
+.btn-dark:hover{
+    background-color: hotpink;
+    border-color: beige;
+}
+span a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+span a:hover{
+    color: hotpink;
+}
+input:hover{
+    border-color: hotpink;
+}
+
+ 
